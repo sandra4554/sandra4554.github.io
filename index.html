@@ -2,62 +2,56 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Formularz</title>
+	<meta charset="UTF-8">
+	<title>Formularz</title>
 </head>
 
 <body>
 
-    <form action="https://formspree.io/sandra4554@wp.pl" method="post">
+	<form action="https://formspree.io/sandra4554@wp.pl" method="post">
 
-        <label for="imie">
-            Imię:</label>
-        <br/>
-        <input type="text" name="imie" id="imie">
-        <br/>
+		<label for="imie">
+			Imię:</label>
+		<br/>
+		<input type="text" name="imie" id="imie">
+		<br/>
 
-        <label for="nazwisko">
-            Nazwisko:</label>
-        <br/>
-        <input type="text" name="nazwisko" id="nazwisko">
-        <br/>
+		<label for="nazwisko">
+			Nazwisko:</label>
+		<br/>
+		<input type="text" name="nazwisko" id="nazwisko">
+		<br/>
+		
+		<form> E-mail:<br>
+  		<input type="email" name="email"><br>
+		</form>
+		
+		<form> Telefon:<br>
+			<input type="tel" name="usrtel"><br>
+		</form>
+		
+		<select> 
+			<option value="value1">Krakow</option>
+			<option value="value2">Warszawa</option>
+			<option value="value3">Gdańsk</option>
+		</select>
 
-        <form>
-            E-mail:
-            <input type="email" name="_replyto">
-        </form>
+		<form> Płeć: <br>
+ 		<input type="radio" name="gender" value="male" checked> Kobieta<br>
+  		<input type="radio" name="gender" value="female"> Mężczyzna<br>
+		</form> 
+		
+		<form>
+		<input type="checkbox" name="vehicle1" value="Dane"> Zgadzam się na przetwarzanie moich danych osobowych<br>
+		</form>
+		
+		<textarea name="wiadomosc" maxlength="1000">
+		</textarea>
 
-        <form>
-            Telefon:
-            <input type="tel" name="telefon">
-        </form>
+		<input type="submit" value="Wyslij">
 
-        <select name="select">
-            <option value="value1">Krakow</option>
-            <option value="value2">Warszawa</option>
-            <option value="value3">Gdańsk</option>
-        </select>
-
-        <form>
-            <input type="radio" name="gender" value="male" checked> Kobieta
-            <br>
-            <input type="radio" name="gender" value="female"> Mężczyzna
-            <br>
-        </form>
-
-        <form>
-            <input type="checkbox" name="vehicle1" value="Bike"> Zgadzam się na przetwarzanie moich danych osobowych
-            <br>
-        </form>
-
-        <textarea name="wiadomosc" maxlength="1000">
-        </textarea>
-
-
-        <form>
-            <input type="submit" value="Wyslij">
-        </form>
-
+	</form>
+	
 </body>
 
 </html>
