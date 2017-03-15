@@ -1,49 +1,35 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
 	<title>Formularz</title>
 </head>
-
 <body>
-
 	<form action="https://formspree.io/sandra4554@wp.pl" method="post">
+		<label for="imie">Imię:</label><br/>
+		<input type="text" name="imie" id="imie"><br/>
 
-		<label for="imie">
-			Imię:</label>
-		<br/>
-		<input type="text" name="imie" id="imie">
-		<br/>
-
-		<label for="nazwisko">
-			Nazwisko:</label>
-		<br/>
-		<input type="text" name="nazwisko" id="nazwisko">
-		<br/>
+		<label for="nazwisko">Nazwisko:</label><br/>
+		<input type="text" name="nazwisko" id="nazwisko"><br/>
 		
-		<form> E-mail:<br>
-  		<input type="email" name="email"><br>
-		</form>
-		
-		<form> Telefon:<br>
-			<input type="tel" name="usrtel"><br>
-		</form>
-		
+		<label for="email">E-mail:</label><br/>
+        <input type="email" name="email" id="email"><br/>
+        <label for="telefon">Numer telefonu:</label><br/>
+        <input type="tel" name="telefon" id="telefon"><br/>
+        
 		<select> 
 			<option value="value1">Krakow</option>
 			<option value="value2">Warszawa</option>
 			<option value="value3">Gdańsk</option>
 		</select>
 
-		<form> Płeć: <br>
+		<br>
  		<input type="radio" name="gender" value="male" checked> Kobieta<br>
   		<input type="radio" name="gender" value="female"> Mężczyzna<br>
-		</form> 
+ 
 		
-		<form>
 		<input type="checkbox" name="vehicle1" value="Dane"> Zgadzam się na przetwarzanie moich danych osobowych<br>
-		</form>
 		
 		<textarea name="wiadomosc" maxlength="1000">
 		</textarea>
