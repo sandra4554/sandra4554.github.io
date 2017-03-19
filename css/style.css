@@ -3,4 +3,32 @@ body {
 	font-family:'Lato', sans-serif;
 	color: #291f1a;
 	font-weight: 300;
+	text-decoration: none;
+	margin: 0;
+}
+nav>ul>li {
+	display: inline-block;
+	text-decoration: none;
+}
+#main-nav {
+	position: fixed;
+	list-style: none;
+	color: #1ac056;
+	font-weight: 300;
+	background-color: #ffffff;
+	width: 100%;
+}
+#main-nav:hover {
+	color: #291f1a;
+}
+#main-header{
+	background-image: url(../img/img/header-background.jpg);
+	background-size: cover;
+	background-position: center;	
+}
+#main-header>div>h1{
+	font-family: 'Roboto';
+}
+#main-header>div {
+	padding: 30vh%;
 }
