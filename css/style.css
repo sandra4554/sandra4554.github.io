@@ -1,22 +1,26 @@
 body {
-	background-color: #19820B;
 	font-family:'Lato', sans-serif;
 	color: #291f1a;
 	font-weight: 300;
 	text-decoration: none;
 	margin: 0;
 }
+a{
+	text-decoration: none;
+}
 nav>ul>li {
 	display: inline-block;
 	text-decoration: none;
+	list-style: none;
+	margin: 5px;
 }
 #main-nav {
 	position: fixed;
-	list-style: none;
+	background-color:#ffffff;
 	color: #1ac056;
-	font-weight: 300;
-	background-color: #ffffff;
 	width: 100%;
+	text-align: right;
+
 }
 #main-nav:hover {
 	color: #291f1a;
@@ -25,10 +29,93 @@ nav>ul>li {
 	background-image: url(../img/img/header-background.jpg);
 	background-size: cover;
 	background-position: center;	
+	text-align: center;
+	width: 100%;
+}
+
+#main-header .main-header-content {
+	padding: 30%;
 }
 #main-header>div>h1{
-	font-family: 'Roboto';
+	font-family: 'Roboto',sans-serif;
+	color: #ffffff;
+	font-size: 80px;
+	margin: 20px;
 }
-#main-header>div {
-	padding: 30vh%;
+#main-header>div>h2 {
+	font-family:'Roboto',sans-serif;
+	color: #ffffff;
+	font-size: 30px;
+	margin-right: 10px;
+}
+span{
+	color: #1ac056;
+}
+
+#about {
+	text-align: center;
+	padding: 0 80px 100px;
+	width: 100%;
+	background-color: #f9fcfe;
+	font-family: 'Roboto',sans-serif;
+	border-bottom: 4px solid #e8e8e8;
+	border-top: 1px solid #f9fcfe;
+	height: 300px;
+	
+}
+#about>figure>img {
+	max-height: 350px;
+	max-width: 50%;
+	border: 10px solid white;
+	border-radius: 10px;
+}
+#about>article {
+	width: 50%;
+	float: left;
+	margin: 0px;
+	text-align: justify;
+}
+#about>h1 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300px;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	text-decoration: none;	
+}
+#about>figure {
+	margin: 0px;
+	float: left;
+	text-align: center;	
+}
+#skills{
+	width: 100%;
+	text-align: center;
+	
+}
+#skills>h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300px;
+	margin-top: 60px;
+	margin-bottom: 35px;
+	text-decoration: none;	
+}
+#skills>p {
+	width: 100%;
+	float: left;
+	margin: 0px;
+	text-align: justify;
+	padding: 40px;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+span {
+	color: #1ac056;
+	text-align: center;
+}
+
+#skills>div>figure {
+	display: inline-block;
+	text-align: center;
 }
