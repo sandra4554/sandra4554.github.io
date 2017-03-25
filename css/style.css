@@ -197,6 +197,7 @@ span {
 .contact-form{
 	width: 50%;
 	float: right;
+	margin-top: 100px;
 }
 #contact>div>h2{
 	text-align: left;
@@ -215,3 +216,22 @@ span {
 	font-size: 22px;
 	line-height: 38px;
 }
+.contact-social-icons a:hover {
+	color: #213b50;
+	background: #fff;
+	border-color: #213b50;
+}
+textarea {
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 15px;
+	border: 0 #2b4a64;
+	background-color: #2b4a64;
+}
+input[type="submit"]{
+	padding: 15px 30px;
+	border: #fae327;
+
+b.	Pola formularza w stanie focus powinny mieć tło #426684 
+c.	input submit przyjmuje szerokość automatyczną, padding 15px 30px; float: right; text-transform: uppercase, border 1px solid #1ac056, kolor tła #1ac056, color #fff, waga czcionki 600
+d.	do submit dodajemy efekt hover gdzie zmieniamy tło na #fff, color na #1ac056
