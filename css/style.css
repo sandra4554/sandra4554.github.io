@@ -189,15 +189,19 @@ span {
 	background-color: #213b50;
 	color: #fff;
 	overflow: hidden;
+	padding-left: 15vh;
+	padding-right: 15vh;
+	padding-bottom: 10vh;
 }
 .contact-data{
 	width: 50%;
 	float: left;
 }
-.contact-form{
+.contact-from{
 	width: 50%;
-	float: right;
+	float: left;
 	margin-top: 100px;
+	
 }
 #contact>div>h2{
 	text-align: left;
@@ -221,17 +225,36 @@ span {
 	background: #fff;
 	border-color: #213b50;
 }
-textarea {
+input[type="text"],input[type="email"],textarea{
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 15px;
 	border: 0 #2b4a64;
 	background-color: #2b4a64;
 }
+
+input[type="text"],input[type="email"]:focus, textarea:focus{
+	background-color: #426684;
+}
 input[type="submit"]{
 	padding: 15px 30px;
-	border: #fae327;
-
-b.	Pola formularza w stanie focus powinny mieć tło #426684 
-c.	input submit przyjmuje szerokość automatyczną, padding 15px 30px; float: right; text-transform: uppercase, border 1px solid #1ac056, kolor tła #1ac056, color #fff, waga czcionki 600
-d.	do submit dodajemy efekt hover gdzie zmieniamy tło na #fff, color na #1ac056
+	text-transform: uppercase;
+	border: 1px solid #fae327;
+	background-color: #fae327;
+	color: #fff;
+	font-weight: 600;
+	float: right;
+}
+input[type="submit"]:hover{
+	background-color: #fff;
+	color: #fae327;
+}
+footer {
+	background-color: #142634;
+	padding: 0 80px;	
+}
+footer p{
+	color: #ffffff;
+	margin: 0;
+	font-size: 12px;
+}
