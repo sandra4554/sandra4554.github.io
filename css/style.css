@@ -14,15 +14,18 @@ nav>ul>li {
 	text-decoration: none;
 	list-style: none;
 	margin: 5px;
+	padding: 5px;
 }
 #main-nav {
 	position: fixed;
 	width: 100%;
 	text-align: right;
+	z-index: 2;
+	background-color: rgba(42, 61, 79, 0.4); 
 
 }
 #main-nav a:hover {
-	color: #1ac056;
+	color:  #fae327;
 }
 #main-header{
 	background-image: url(../img/img/header-background.jpg);
@@ -39,16 +42,19 @@ nav>ul>li {
 	font-family: 'Roboto',sans-serif;
 	color: #ffffff;
 	font-size: 80px;
+	font-weight: 200;
 	margin: 20px;
 }
 #main-header>div>h2 {
 	font-family:'Roboto',sans-serif;
 	color: #ffffff;
 	font-size: 30px;
+	font-weight: 300;
 	margin-right: 10px;
 }
 span{
-	color: #1ac056;
+	color: #fae327;
+	font-weight: 700;
 }
 
 #about {
@@ -59,6 +65,7 @@ span{
 	border-top: 1px solid #f9fcfe;
 	height: 400px;
 	width: 100%;
+	font-weight: 300;
 }
 #about>figure>img {
 	max-height: 400px;
@@ -75,7 +82,7 @@ span{
 #about>h1 {
 	text-align: center;
 	font-size: 30px;
-	font-weight: 300px;
+	font-weight: 300;
 	margin-top: 60px;
 	margin-bottom: 35px;
 	text-decoration: none;	
@@ -93,7 +100,7 @@ span{
 #skills>h2{
 	text-align: center;
 	font-size: 30px;
-	font-weight: 300px;
+	font-weight: 300;
 	margin-top: 60px;
 	margin-bottom: 35px;
 	text-decoration: none;	
@@ -106,7 +113,7 @@ span{
 
 }
 span {
-	color: #1ac056;
+	color: #fae327;
 	text-align: center;
 }
 
@@ -140,6 +147,7 @@ span {
 	text-align: center;
 	font-size: 30px;
 	color: black;
+	font-weight: 300;
 }
 .single-portfolio-item-mask{
 	background-color: rgba(42, 61, 79, 0.8);
@@ -172,8 +180,38 @@ span {
 	color: #fff;
 }
 .fa-link{
-	color: red;
+	color: #ffffff;
 }
 .fa-link:hover {
-	color: #1ac056;
+	color: #fae327;
+}
+#contact {
+	background-color: #213b50;
+	color: #fff;
+	overflow: hidden;
+}
+.contact-data{
+	width: 50%;
+	float: left;
+}
+.contact-form{
+	width: 50%;
+	float: right;
+}
+#contact>div>h2{
+	text-align: left;
+	font-size: 38px;
+}
+#contact>div>address a{
+	color: #fae327;
+}
+.contact-social-icons a{
+	display: inline-block;
+	height: 38px;
+	width: 38px;
+	text-align: center;
+	margin-right: 30px;
+	border: 1px solid #fff;
+	font-size: 22px;
+	line-height: 38px;
 }
