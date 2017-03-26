@@ -24,6 +24,9 @@ nav>ul>li {
 	background-color: rgba(42, 61, 79, 0.4); 
 
 }
+#main-nav label.toggle, input[type="checkbox"]{
+	display: none;
+}
 #main-nav a:hover {
 	color:  #fae327;
 }
@@ -45,14 +48,14 @@ nav>ul>li {
 	font-family: 'Roboto',sans-serif;
 	color: #ffffff;
 	font-size: 80px;
-	font-weight: 200;
+	font-weight: 100;
 	margin: 20px;
 }
 #main-header>div>h2 {
 	font-family:'Roboto',sans-serif;
 	color: #ffffff;
 	font-size: 30px;
-	font-weight: 300;
+	font-weight: 100;
 	margin-right: 10px;
 }
 span{
@@ -113,6 +116,7 @@ span{
 	float: left;
 	margin-left: 120px;
 	text-align: justify;
+	font-size: 10px;
 
 }
 span {
@@ -192,9 +196,9 @@ span {
 	background-color: #213b50;
 	color: #fff;
 	overflow: hidden;
-	padding-left: 15vh;
-	padding-right: 15vh;
-	padding-bottom: 10vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+	padding-bottom: 5vh;
 }
 .contact-data{
 	width: 50%;
@@ -209,6 +213,7 @@ span {
 #contact>div>h2{
 	text-align: left;
 	font-size: 38px;
+	font-weight: 100;
 }
 #contact>div>address a{
 	color: #fae327;

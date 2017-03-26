@@ -6,10 +6,12 @@
 	.single-portfolio-item:last-child{
 		width: 100%;
 	}
-	
+	#about{
+		border-bottom: none;
+	}
 }
 	@media all and (max-width : 768px){
-	lable.toggle{
+	#main-nav label.toggle{
 		display: block;
 		background-color: #fff;
 		padding: 0 20px;
@@ -20,28 +22,30 @@
 		border: none; 
 		text-align: right;
 		}
-		ul{
+		#main-nav ul{
 			display: none;
 		}
-		#main-nav #drop:checked ul{
+		#main-nav li a {
+			text-align: right;
+			padding: 20px;
+		}
+		#main-nav #drop:checked + ul{
 			display: block;
 		}
 		li{
 			display: block;
 			width: 100%;
-			padding: 20px;
-			text-align: right;
 		}
 		.main-header-content{
 			padding: 10%;
 		}
-		figure{
+		#about figure{
 			width: 100%;
 		}
 		figure img {
 			max-height: inherit;
 		}
-		article{
+		#about #about-content{
 			width: 100%:
 		}
 		.single-portfolio-item {
@@ -54,6 +58,12 @@
 		.contact-form {
 			width: 100%;
 		}
+		#contact-social-icons{
+			margin: 0;
+		}
+		.skills p {
+			font-size: 15px;
+		}
 }
 @media all and (max-width : 680px){
 	h1{
@@ -62,5 +72,20 @@
 	h2{
 		font-size: 1.5em;
 	} 
+	section{
+		padding: 0 40px 50px;
+	}
+	#contact-social-icons{
+			margin: 0;
+	}
+	#main-header{
+		text-align: left;
+	}
+	#about{
+		border-bottom: none;
+	}
 }
-@media all and (max-width : 480px)
+@media all and (max-width : 480px){
+	section{
+		padding: 0 10px 30px;
+	}
