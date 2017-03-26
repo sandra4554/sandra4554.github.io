@@ -6,21 +6,19 @@
 	.single-portfolio-item:last-child{
 		width: 100%;
 	}
-	#about{
-		border-bottom: none;
-	}
 }
 	@media all and (max-width : 768px){
 	#main-nav label.toggle{
 		display: block;
 		background-color: #fff;
-		padding: 0 20px;
+		
 		color:  #fae327;
 		font-size: 20px;
 		line-height: 60px;
 		text-decoration: none;
 		border: none; 
 		text-align: right;
+		width: 100%;
 		}
 		#main-nav ul{
 			display: none;
@@ -38,6 +36,7 @@
 		}
 		.main-header-content{
 			padding: 10%;
+			width: 100%;
 		}
 		#about figure{
 			width: 100%;
@@ -46,7 +45,7 @@
 			max-height: inherit;
 		}
 		#about #about-content{
-			width: 100%:
+			width: 100%;		
 		}
 		.single-portfolio-item {
 			width: 100%;
@@ -60,9 +59,18 @@
 		}
 		#contact-social-icons{
 			margin: 0;
+			padding: 5px;
 		}
-		.skills p {
-			font-size: 15px;
+		a {
+			text-align: center;
+		}
+		#about {
+			background: none;
+			border: none;
+		}
+		.skills{
+			text-align: center;
+			width: 100%;
 		}
 }
 @media all and (max-width : 680px){
@@ -80,9 +88,6 @@
 	}
 	#main-header{
 		text-align: left;
-	}
-	#about{
-		border-bottom: none;
 	}
 }
 @media all and (max-width : 480px){
