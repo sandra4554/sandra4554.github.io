@@ -1,96 +1,78 @@
-@media all and (max-width : 1200px){
-
-	.single-portfolio-item{
-		width:  50%; 
+@media (max-width:992px){
+	#tekst
+	{
+		background-image: url(../img/man-1.jpg);
+		background-size: cover;
+        background-attachment: local;
+        background-position: center;
+		position: relative;
+		height: 50vh;	
 	}
-	.single-portfolio-item:last-child{
-		width: 100%;
-	}
-}
-	@media all and (max-width : 768px){
-	#main-nav label.toggle{
-		display: block;
-		background-color: #fff;
+	#tekst h1 {
+		position: absolute;
+	    top: 110%;
+        text-align: center;
+        font-size: 1.8rem;
+        left: 10%;
+        right: 10%;
 		
-		color:  #fae327;
-		font-size: 20px;
-		line-height: 60px;
-		text-decoration: none;
-		border: none; 
-		text-align: right;
-		width: 100%;
-		}
-		#main-nav ul{
-			display: none;
-		}
-		#main-nav li a {
-			text-align: right;
-			padding: 20px;
-		}
-		#main-nav #drop:checked + ul{
-			display: block;
-		}
-		li{
-			display: block;
-			width: 100%;
-		}
-		.main-header-content{
-			padding: 10%;
-			width: 100%;
-		}
-		#about figure{
-			width: 100%;
-		}
-		figure img {
-			max-height: inherit;
-		}
-		#about #about-content{
-			width: 100%;		
-		}
-		.single-portfolio-item {
-			width: 100%;
-		}
-		.contact-data {
-			width: 100%;
-			text-align: center;
-		}
-		.contact-form {
-			width: 100%;
-		}
-		#contact-social-icons{
-			margin: 0;
-			padding: 5px;
-		}
-		a {
-			text-align: center;
-		}
-		#about {
-			background: none;
-			border: none;
-		}
-		.skills{
-			text-align: center;
-			width: 100%;
-		}
-}
-@media all and (max-width : 680px){
-	h1{
-		font-size: 3em;
 	}
-	h2{
-		font-size: 1.5em;
-	} 
-	section{
-		padding: 0 40px 50px;
-	}
-	#contact-social-icons{
-			margin: 0;
-	}
-	#main-header{
-		text-align: left;
+	#tekst h2 {
+		position: absolute;
+		top: 100%;
+        font-size: 1.2rem;
+        left: 25%;
+        right: 25%;
+        text-align: center;
 	}
 }
-@media all and (max-width : 480px){
-	section{
-		padding: 0 10px 30px;
+
+@media (min-width:992px) and (max-width:1170px){
+	#tekst
+	{
+		background-image: url(../img/man-2.jpg);
+        background-size: cover;
+        background-attachment: local;
+        background-position: center;
+		position: relative;
+        height: 70vh;
 	}
+	#tekst h1 {
+		position: absolute;
+		right: 5%;
+		top: 40%;
+		color: #ffffff;
+	}
+	#tekst h2 {
+		position: absolute;
+		right: 5%;
+		top: 30%;
+		color: #ffffff;	
+	}
+}
+
+@media (min-width: 1171px){
+	#tekst
+	{
+		background-image: url(../img/man-1.jpg);
+		background-size: cover;
+		background-attachment: local;
+		background-position: center;
+		position: relative;
+		height: 100vh;
+	}
+	#tekst h1 {
+		position: absolute;
+	    left: 5%;
+	    top: 60%;
+		font-size: 2.5em;
+		color: #ffffff;
+	}
+	#tekst h2 {
+		position: absolute;
+		left: 5%;
+		top: 50%;
+		font-size: 2.5em;
+		color: #ffffff;	
+	}
+}
